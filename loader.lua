@@ -30,9 +30,10 @@ local CFG = {
 -- ║         UTILITIES            ║
 -- ╚══════════════════════════════╝
 local Keywords = {
-    "ore","essence","void","shard","fragment",
-    "crystal","drop","collect","pickup","item",
-    "resource","node","gem","rune","core"
+    "Gift",
+    "GiftShell",
+    "GoldenGift",
+    "GoldenGiftShell",
 }
 
 local function isKeyword(name)
