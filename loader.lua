@@ -29,11 +29,16 @@ local CFG = {
 -- ╔══════════════════════════════╗
 -- ║         UTILITIES            ║
 -- ╚══════════════════════════════╝
+-- CORRECT KEYWORDS — Tripmines removed:
+
 local Keywords = {
     "Gift",
     "GiftShell",
+    "Gift_Collect",
     "GoldenGift",
     "GoldenGiftShell",
+    "GoldenGift_Destroy",
+    "PassageGift",
 }
 
 local function isKeyword(name)
